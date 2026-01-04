@@ -61,22 +61,4 @@ The project combines object detection, chess logic, and a graphical user interfa
 
 ---
 
-## Documentation
-Detailed documentation is available in the `docs/` folder:
-- Calibration and board mapping
-- Object detection pipeline
-- FEN generation
-- Stockfish integration
-- GUI architecture
 
----
-
-## Authors
-Belinskiy Dmitriy  
-Sestrevatovskiy Ratmir  
-School of IT and Engineering, Kazakh-British Technical University
-
----
-
-## Disclaimer
-This project is intended for **educational and research purposes**.

@@ -12,6 +12,21 @@ A computer vision system that analyzes a **physical chessboard in real time**, r
 The project combines object detection, chess logic, and a graphical user interface to bridge physical and digital chess.
 
 ---
+Quick Links:
+- [Project Overview](docs/overview.md)
+- [Demo](#demo)
+- [Features](#features)
+- [Pipeline](#pipeline)
+- [Results](#results)
+
+
+
+---
+## Demo
+
+
+
+---
 
 ## Features
 - Real-time chessboard capture using a camera

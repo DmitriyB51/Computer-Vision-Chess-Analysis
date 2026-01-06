@@ -16,6 +16,12 @@ This project implements a **computer vision–based chess analysis system** that
 
 ---
 
+## Code
+
+All code here: [Main Script](../Code/main_code/)
+
+
+
 ## System Architecture
 
 ### Calibration Layer
@@ -30,12 +36,34 @@ This project implements a **computer vision–based chess analysis system** that
 </p>
 
 
+### Model Training
+- YOLOv8 trained on labeled images of chess pieces
+- Classes correspond to standard chess notation (`p`, `P`, `k`, etc.)
+- Training focused on top-down board perspective
+- Model optimized for real-time inference
+
+
+
+Download trained YOLO model: [Main Script](../train/)
+
+
+<p align="center">
+  <img src="../images/dataset.png" width="600">
+</p>
+
+
+
 ### Vision Layer
 - YOLOv8 model detects chess pieces in each frame
 - Each detection provides class label and bounding box
 - Detection center is mapped to a board square using calibrated boxes
 
 ---
+
+<p align="center">
+  <img src="../images/yolo.png" width="600">
+</p>
+
 
 ### Board Representation
 - Board state is stored as an **8×8 matrix**
@@ -46,12 +74,16 @@ This project implements a **computer vision–based chess analysis system** that
 
 ---
 
+
+
 ### Chess Engine Layer
 - FEN position is passed to **Stockfish**
 - Engine calculates the best move with a fixed time limit
 - Best move is returned in UCI format (e.g. `e2e4`)
 
 ---
+
+Download Chess engine: [Stockfish](../stockfish-windows-x86-64-avx2/)
 
 ### Visualization Layer (GUI)
 - Implemented using **Tkinter**
@@ -62,17 +94,13 @@ This project implements a **computer vision–based chess analysis system** that
 
 ---
 
-## Design Characteristics
-- Real-time processing
-- Single-camera setup
-- Modular pipeline (vision → logic → engine → GUI)
-- Calibration-based robustness
-- Designed for experimentation and analysis
-
----
-
-## Project Scope
-The system is intended for **analysis and training purposes** and demonstrates the integration of computer vision, chess logic, and a classical chess engine in a real-time application.
+<p align="center">
+  <img src="../images/GUI.png" width="600">
+</p>
 
 
-[def]: m
+
+
+
+
+

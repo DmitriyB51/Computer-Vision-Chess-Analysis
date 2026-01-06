@@ -26,9 +26,8 @@ This project implements a **computer vision–based chess analysis system** that
 ---
 
 <p align="center">
-  <img src="images/calibration.png" width="600">
+  <img src="C:/Users/OmeN_HP/Desktop/Computer-Vision-Chess-Analysis-1/images/calibration.png" width="600">
 </p>
-
 
 
 ### Vision Layer
@@ -74,3 +73,6 @@ This project implements a **computer vision–based chess analysis system** that
 
 ## Project Scope
 The system is intended for **analysis and training purposes** and demonstrates the integration of computer vision, chess logic, and a classical chess engine in a real-time application.
+
+
+[def]: m

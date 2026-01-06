@@ -26,7 +26,7 @@ This project implements a **computer vision–based chess analysis system** that
 ---
 
 <p align="center">
-  <img src="C:/Users/OmeN_HP/Desktop/Computer-Vision-Chess-Analysis-1/images/calibration.png" width="600">
+  <img src="../images/calibration.png" width="600">
 </p>
 
 

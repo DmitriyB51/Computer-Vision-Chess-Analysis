@@ -23,18 +23,18 @@ Quick Links:
 
 ---
 ## Demo
-**Wait for the GIFs to download**
 
-# Overview
+> **Note:** GIFs may take a few seconds to load.
+
+### System Overview
 <p align="center">
   <img src="media/looks.gif" width="600">
 </p>
 
-# Demo game
+### Live Game Demonstration
 <p align="center">
   <img src="media/game.gif" width="600">
 </p>
-
 ---
 
 ## Features

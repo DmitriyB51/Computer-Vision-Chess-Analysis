@@ -16,15 +16,24 @@ Quick Links:
 - [Project Overview](docs/overview.md)
 - [Demo](#demo)
 - [Features](#features)
-- [Pipeline](#pipeline)
+- [Pipeline](#system-overview)
 - [Results](#results)
 
 
 
 ---
 ## Demo
+**Wait for the GIFs to download**
 
+# Overview
+<p align="center">
+  <img src="media/looks.gif" width="600">
+</p>
 
+# Demo game
+<p align="center">
+  <img src="media/game.gif" width="600">
+</p>
 
 ---
 
